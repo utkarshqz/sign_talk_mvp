@@ -76,6 +76,7 @@ This enables **cross-user generalization without retraining**.
 
 ## 📁 Repository Structure
 
+```text
 sign_talk_mvp/
 │
 ├── sign_language_backend/
@@ -91,40 +92,63 @@ sign_talk_mvp/
 ├── sign_language_mvp/
 │
 └── README.md
-
+```
 
 ---
 
 ## ⚙️ Backend Setup (Local)
 
+### Create virtual environment
+```bash
 cd sign_language_backend
 python -m venv venv
+```
 
-# Activate virtual environment (Windows)
+### Activate virtual environment (Windows)
+```bash
 venv\Scripts\activate
+```
 
-# Install dependencies
+### Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# Run FastAPI server
+### Run FastAPI server
+```bash
 uvicorn app:app --reload
+```
+
+Backend API:
+http://127.0.0.1:8000
 
 ---
 
 ## 🖥 Frontend Demo (Local)
+
+### Create virtual environment
+```bash
 cd sign_language_frontend
 python -m venv venv
+```
 
-# Activate virtual environment (Windows)
+### Activate virtual environment (Windows)
+```bash
 venv\Scripts\activate
+```
 
-# Install dependencies
+### Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# Run Streamlit app
+### Run Streamlit app
+```bash
 streamlit run app.py
+```
 
 ---
+
 
 ## ☁️ Azure Deployment
 
