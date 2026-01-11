@@ -92,27 +92,36 @@ sign_talk_mvp/
 │
 └── README.md
 
+
 ---
 
 ## ⚙️ Backend Setup (Local)
 
 cd sign_language_backend
 python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn app:app --reload
 
-Backend API:
-http://127.0.0.1:8000
+# Activate virtual environment (Windows)
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run FastAPI server
+uvicorn app:app --reload
 
 ---
 
 ## 🖥 Frontend Demo (Local)
-
 cd sign_language_frontend
 python -m venv venv
+
+# Activate virtual environment (Windows)
 venv\Scripts\activate
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run Streamlit app
 streamlit run app.py
 
 ---
