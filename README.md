@@ -56,21 +56,21 @@ This enables **cross-user generalization without retraining**.
 
 ## ✨ Key Features
 
-- ⚡ **Real-time** sign recognition
-- 👥 Works across different users **without retraining**
-- 🎥 Uses only a standard RGB camera
-- ☁️ **Cloud-based backend** for device independence
-- 🧱 Lightweight, modular, and scalable MVP architecture
+- Real-time sign recognition
+- Works across different users without retraining
+- Uses only a standard RGB camera
+- Cloud-based backend for device independence
+- Lightweight and scalable MVP architecture
 
 ---
 
 ## 🛠 Technology Stack
 
-- **Programming Language:** Python
-- **Backend Framework:** FastAPI
-- **Frontend Demo:** Streamlit
-- **Computer Vision:** MediaPipe, OpenCV
-- **Cloud Platform:** Microsoft Azure App Service
+- Programming Language: Python
+- Backend Framework: FastAPI
+- Frontend Demo: Streamlit
+- Computer Vision: MediaPipe, OpenCV
+- Cloud Platform: Microsoft Azure App Service
 
 ---
 
@@ -102,7 +102,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app:app --reload
 
-Backend API will be available at:
+Backend API:
 http://127.0.0.1:8000
 
 ---
@@ -119,7 +119,7 @@ streamlit run app.py
 
 ## ☁️ Azure Deployment
 
-The backend is deployed on **Microsoft Azure App Service (Linux)** using:
+The backend is deployed on Microsoft Azure App Service (Linux) using:
 - FastAPI
 - Gunicorn
 - Uvicorn workers
@@ -154,7 +154,7 @@ YouTube Demo Videos:
 - Deaf–hearing communication bridge
 - Inclusive education tools
 - Public service kiosks
-- Telemedicine & accessibility platforms
+- Telemedicine and accessibility platforms
 - Smart assistants with gesture input
 
 ---
@@ -163,6 +163,6 @@ YouTube Demo Videos:
 
 - Expanded vocabulary and dynamic gestures
 - NLP-based sentence construction
-- Native Android & iOS apps
+- Native Android and iOS apps
 - Multilingual sign language support
 - Offline edge deployment
